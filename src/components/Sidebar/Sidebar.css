@@ -1,0 +1,4 @@
+.sidebar { width: 220px; background-color: #e9eef5; padding: 16px; border-right: 1px solid #d1d1d1; }
+.sidebar-list { list-style: none; margin: 0; padding: 0; }
+.sidebar-item { padding: 10px; cursor: pointer; border-radius: 6px; }
+.sidebar-item:hover { background-color: #d4dce9; }

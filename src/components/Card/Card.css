@@ -1,0 +1,4 @@
+.card { background-color: white; padding: 16px; border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 16px; }
+.card-title { margin: 0 0 10px 0; font-size: 18px; font-weight: bold; }
+.card-body { font-size: 14px; color: #444; }
