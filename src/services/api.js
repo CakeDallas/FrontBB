@@ -1,6 +1,5 @@
 const BASE_URL = 'https://clinica.dev.vilhena.ifro.edu.br/api';
 
-// Função para fazer requisições à API
 export const api = {
   // Consultas
   async getConsultas() {
