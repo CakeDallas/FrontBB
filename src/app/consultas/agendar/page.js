@@ -23,6 +23,7 @@ export default function AgendarConsulta() {
     carregarDados();
   }, []);
 
+  
   const carregarDados = async () => {
     try {
       const [medicosData, pacientesData] = await Promise.all([
