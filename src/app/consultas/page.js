@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import ConsultaCard from '@/components/consultas/consultaCardonsultaCard';
+import ConsultaCard from '@/components/consultas/consultaCard.js';
 import { api } from '@/services/api';
 import styles from './page.module.css';
 
