@@ -35,7 +35,7 @@ export default function Header() {
             <p className={styles.logoSubtitle}>Maria & João</p>
           </div>
 
-          <DesktopMenu menuItems={menuItems} />
+
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -46,11 +46,7 @@ export default function Header() {
           </button>
         </div>
 
-        <MobileMenu 
-          menuItems={menuItems} 
-          isOpen={mobileMenuOpen} 
-          onClose={() => setMobileMenuOpen(false)} 
-        />
+
       </div>
     </header>
   );
