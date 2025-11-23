@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
-import DesktopMenu from './DesktopMenu.js';
-import MobileMenu from './MobileMenu.js';
+import DesktopMenu from './desktopMenu.js';
+import MobileMenu from './mobileMenu.js';
 import styles from './Header.module.css';
 
 export default function Header() {
