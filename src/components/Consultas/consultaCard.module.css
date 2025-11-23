@@ -1,0 +1,99 @@
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.pacienteNome {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.statusAgendada {
+  background: #fed7d7;
+  color: #c53030;
+}
+
+.statusRealizada {
+  background: #c6f6d5;
+  color: #276749;
+}
+
+.statusCancelada {
+  background: #e2e8f0;
+  color: #4a5568;
+}
+
+.statusDefault {
+  background: #e2e8f0;
+  color: #4a5568;
+}
+
+.cardBody {
+  space-y: 0.75rem;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.infoLabel {
+  font-weight: 600;
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.infoValue {
+  color: #333;
+  text-align: right;
+  flex: 1;
+}
+
+.cardActions {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.cancelButton {
+  background: #fed7d7;
+  color: #c53030;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.cancelButton:hover {
+  background: #feb2b2;
+}

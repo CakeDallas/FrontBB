@@ -1,8 +1,8 @@
 'use client';
 import { useState } from 'react';
-import DesktopMenu from './DesktopMenu';
-import MobileMenu from './MobileMenu';
-import styles from './header.module.css';
+import DesktopMenu from './DesktopMenu.js';
+import MobileMenu from './MobileMenu.js';
+import styles from './Header.module.css';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -35,7 +35,7 @@ export default function Header() {
             <p className={styles.logoSubtitle}>Maria & João</p>
           </div>
 
-
+          <DesktopMenu menuItems={menuItems} />
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -46,7 +46,11 @@ export default function Header() {
           </button>
         </div>
 
-
+        <MobileMenu 
+          menuItems={menuItems} 
+          isOpen={mobileMenuOpen} 
+          onClose={() => setMobileMenuOpen(false)} 
+        />
       </div>
     </header>
   );
