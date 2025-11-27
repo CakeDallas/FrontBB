@@ -10,7 +10,7 @@ export default function Home() {
                     Clínica Médica Saúde Total
                 </h1>
                 <p className={styles.heroSubtitle}>
-                    Desenvolvido por <strong>Maria & João</strong>
+                    Desenvolvido por <strong>victor e henrique</strong>
                 </p>
 
                 <div className={styles.heroActions}>

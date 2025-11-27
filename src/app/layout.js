@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Clínica Médica - Maria & João',
+  title: 'Clínica Médica - henrique e victor',
   description: 'Sistema de gestão para clínica médica',
 };
 

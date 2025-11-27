@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import DesktopMenu from './DesktopMenu';
+import DesktopMenu from './DesktopMenu.js';
 import MobileMenu from './MobileMenu.js';
 import styles from './Header.module.css';
 
